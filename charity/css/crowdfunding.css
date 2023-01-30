@@ -332,6 +332,7 @@ color: #fff;
 @media (max-width: 426px){
   .processCrowdfunding{
     flex-wrap: wrap;
+    background-position-y: 60%;
   }
 }
 /* styling for process section ends */
