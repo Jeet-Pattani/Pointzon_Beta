@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+
+
+
+.navbarMain{
+    height: 12vh;
+    width: 100vw;
+    background-color: #131418;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    color: #f2f5f7;
+}
+
+/*Styling logo*/
+.logo{
+    padding:1em;
+    margin-left: 0.5em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    border: none;
+}
+.logo img {
+    height: 10vh;
+    width: 10vw;
+}
+
+/*Styling Links*/
+.nav-links{
+    display: flex;
+    list-style: none; 
+    width: 77vw;
+    margin-left: 6em;
+    margin-top: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+.nav-links li a{
+    text-decoration: none;
+    margin: 0 0.7vw;
+    color: #f2f5f7;
+    color: var(--stark);
+}
+.nav-links li a:hover {
+    color: #61DAFB;
+    color: #3007c2;
+    color: 	#1F51FF;
+    color: fuchsia;
+}
+.nav-links li {
+    position: relative;
+}
+.nav-links li a::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color: #61DAFB;
+    background-color: #3007c2;
+    background-color: 	#1F51FF;
+    position: absolute;
+    transition: all ease-in-out 250ms;
+    margin: 0 0 0 10%;
+}
+.nav-links li a:hover::after{
+    width: 80%;
+}
+
+/*Styling Buttons*/
+.login-button{
+    background-color: transparent;
+    border: 1.5px solid #f2f5f7;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0.5em 1em;
+    /* margin-left: 2vw; */
+    font-size: 1em;
+    cursor: pointer;
+    color: #f2f5f7;
+}
+.login-button:hover {
+    color: #131418 !important;
+    background-color: #f2f5f7;
+    border:1.5px solid #f2f5f7;
+    transition: all ease-in-out 350ms;
+}
+.join-button{
+    color: #131418;
+    color: white;
+    background-color: #2036ff;
+    border: 1.5px solid #2036ff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+
+
+
+}
+.join-button:hover {
+    color: #f2f5f7 !important;
+    background-color: transparent;
+    border:1.5px solid #f2f5f7;
+    transition: all ease-in-out 350ms;
+}
+
+/*Styling Hamburger Icon*/
+.hamburger div{
+    width: 30px;
+    height:3px;
+    background: #f2f5f7;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.hamburger{
+    display: none;
+}
+
+
+
+            /* Dropdown Button */
+            .dropbtn {
+                /* background-color: #04AA6D; */
+                color: white;
+                background: transparent;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+              }
+              
+              /* The container <div> - needed to position the dropdown content */
+              .dropdown {
+                position: relative;
+                display: inline-block;
+              
+              }
+              /* Dropdown Content (Hidden by Default) */
+              .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.145);
+                backdrop-filter: blur(20px);
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+              }
+              
+              /* Links inside the dropdown */
+              .dropdown-content a {
+                color: black;
+                color: var(--stark);
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+              }
+              
+              /* Change color of dropdown links on hover */
+              .dropdown-content a:hover {background-color: rgb(32, 54, 255); color: black;}
+              
+              /* Show the dropdown menu on hover */
+              .dropdown:hover .dropdown-content {display: block;}
+              
+              /* Change the background color of the dropdown button when the dropdown content is shown */
+              .dropdown:hover .dropbtn {background-color: rgb(255, 255, 255); color: black;}
+                       
+
+@media screen and (min-width:1023px) {
+    .join-button{
+       
+        background-color: #0024b4;
+    }
+
+    .nav-links li a:hover {
+        color: #fff;
+    }
+    .nav-links li a::after{
+        background-color: #fff;
+    }
+}
+
+
+@media screen and (max-width: 1025px) {
+    .nav-links{
+        margin-left: 2em;
+    }
+}
+
+/*Stying for small screens*/
+@media screen and (max-width: 800px){
+   
+   .logo{
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    font-weight: 900;
+   }
+
+   .logo a{
+color: white!important;
+   }
+   
+   
+    .navbarMain{
+        position: fixed;
+        z-index: 4;
+        transition: 2s ease-in-out;
+    }
+    .hamburger{
+        display:block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+        transition: all 0.7s ease;
+    }
+    .nav-links{
+        position: fixed;
+        background: #0c0c0f;
+        height: 100vh;
+        width: 100%;
+        color: #f2f5f7;
+        flex-direction: column;
+        clip-path: circle(50px at 90% -20%);
+        -webkit-clip-path: circle(50px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-links.openHamburgerMenu{
+        clip-path: circle(1090px at 90% -10%);
+        -webkit-clip-path: circle(1090px at 90% -10%);
+        pointer-events: all;
+    }
+    .nav-links li{
+        opacity: 0;
+       
+        padding: 0;
+    }
+    .nav-links li:nth-child(1){
+        transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2){
+        transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3){
+        transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(4){
+        transition: all 0.5s ease 0.7s;
+    }
+    .nav-links li:nth-child(5){
+        transition: all 0.5s ease 0.8s;
+    }
+    .nav-links li:nth-child(6){
+        transition: all 0.5s ease 0.9s;
+        margin: 0;
+    }
+    .nav-links li:nth-child(7){
+        transition: all 0.5s ease 1s;
+        margin: 0;
+    }
+    li.fadeHamburgerMenu{
+        opacity: 1;
+    }
+    /* li.fade must not be used instead fadeHamburgerMenu is used as fade is a general name and using bootstrap will not increase the opacity to 1*/
+}
+/*Animating Hamburger Icon on Click*/
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    transition: all 0.7s ease;
+    width:0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}

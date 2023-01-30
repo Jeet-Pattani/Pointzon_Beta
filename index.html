@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pointzon | The Funding Helper</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+
+  <script src="js/jquery-3.6.3.slim.min.js"></script>
+<script src="https://kit.fontawesome.com/a81f64a541.js" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/2.0.0/scrollReveal.min.js" integrity="sha512-L56hqljAjZhvB9f32klSO2ltXUlKbaOY2KdlNLOdzxJtl0jNvNQFKTP3u0MIFUP3mXTzYdy7KCaUSvi7QBWxNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css"
+    integrity="sha512-YQlbvfX5C6Ym6fTUSZ9GZpyB3F92hmQAZTO5YjciedwAaGRI9ccNs4iw2QTCJiSPheUQZomZKHQtuwbHkA9lgw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/glide.theme.css">
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
+
+  <script src="js/gianni-accordion.js"></script>
+
+  <link rel="stylesheet" href="css/welcome.css">
+  <link rel="stylesheet" href="css/faq.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="css/card2.css">
+  <link rel="stylesheet" href="css/servicesCard.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/main.min.css">
+
+
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+
+
+
+
+  <nav class="navbarMain">
+    <div class="logo">
+      <a href="index.html">Pointzon</a>
+    </div>
+    <div class="hamburger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="charity/index.html">Charity</a></li>
+      <li><a href="charity/crowdfunding.html">Crowdfunding</a></li>
+      <li><a href="sub-page/index.html">News</a></li>
+      <li><a href="sub-page/about.html">About Us</a></li>
+      <li><a href="sub-page/contact.html">Contact Us</a></li>
+
+      <!-- <div class="dropdown">
+        <button class="dropbtn">More <i class="bi bi-chevron-down"></i></button>
+        <div class="dropdown-content">
+          <a href="Charity/index.html">Charity</a>
+          <a href="#">Link 2</a>
+        </div>
+      </div> -->
+
+      <a class="btn login-button" href="sub-page/login.html" role="button">Login</a>
+      <a class="btn join-button" href="sub-page/signup.html" role="button">Join</a>
+    </ul>
+  </nav>
+
+
+
+    <!-- <div class='hero'>
+      <div class="hero-one"></div>
+      <div class="heroTextContainer">
+        <div class="quoteCircle"></div>
+        <div class="heroQuote">
+          Meaningful Investments in Main Street Business
+        </div>
+        <div class="heroQuoteSub">Browse vetted investment offerings in communities all over the UK.</div>
+        <a class="btn" id="callToAction" href="sub-page/signup.html" role="button"
+          style=" --bs-btn-color: var(--bs-white); --bs-btn-hover-color: var(--bs-black);">GET STARTED</a> -->
+
+
+        <!-- To add a second hero image in diagonally<div class="hero-two"></div> -->
+
+    <!-- </div>
+    </div>  -->
+
+<div class="hero">
+    <p class="sample-text lozad" data-background-image="images/hero-image2-compressed.webp" style="background-attachment: fixed">Pointzon</p>
+  <div class="sub-text">
+    <p>Elevate Your Start-up to the <span style="color: fuchsia;">Next Level</span> with Us</p>
+  </div>
+  <div class="cta-links">
+    <a href="sub-page/signup.html">Sign Up</a>
+  </div>
+
+  </div>
+<section class="first-sections">
+
+    <section class="aboutUs">
+      <div class="aboutContainer">
+        <div class="left lozad" data-background-image="images/aboutUs.jpg" data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine"></div>
+        <div class="right" id="aboutRight" data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine">
+          <div class="content">
+            <h1>Connecting Startups to their future</h1>
+            <p>Fundraising can be a daunting task for startups. That's why we've created a platform that connects you, with potential investors to secure the funding you need to growth. Simplify your fundraising journey with Pointzon.</p>
+            <a href="sub-page/about.html" class="aboutBtn"><span>Know More</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+   <section class="aboutUs">
+    <div class="aboutContent" data-aos="fade-right"
+    data-aos-offset="200"
+    data-aos-easing="ease-in-sine">
+      <h2>The Pointzon Mission</h2>
+      <p>At Pointzon, we offer a wide range of services to help startups and investors succeed. From connecting startups with potential investors to providing resources and support for fundraising, we are dedicated to helping our users achieve their goals. Sign up today to take advantage of our platform and services</p>
+      <a href="sub-page/vision.html" class="aboutBtn"><span>Know More</span></a>
+    </div>
+    <div class="featuresCarousel" id="fCarousel" data-aos="fade-left"
+    data-aos-offset="200"
+    data-aos-easing="ease-in-sine">
+     <div class="swiffy-slider slider-nav-outside slider-nav-visible slider-nav-touch">
+      <ul class="slider-container">
+
+        <li>
+          <div class="features-card">
+            <div class="features-icon">
+              <i class="bi bi-person-fill-check"></i>
+            <h3>User Friendly</h3>
+            </div>
+            <div class="features-card-text">
+
+            <p> Our platform is designed to be easy to use, with a user-friendly interface that makes it simple to navigate and find the information you need. Whether you're a startup founder or an investor, you'll find everything you need on Pointzon.</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="features-card">
+            <div class="features-icon">
+              <i class="bi bi-lightning-fill"></i>
+            <h3>Lightning Fast</h3>
+            </div>
+            <div class="features-card-text">
+
+            <p> Experience lightning-fast website speeds with Pointzon. Our platform is designed to be responsive and user-friendly, so you can easily connect with investors and secure funding without any delays.</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="features-card">
+            <div class="features-icon">
+              <i class="bi bi-shield-fill-check"></i>
+            <h3>Totally Secured</h3>
+            </div>
+            <div class="features-card-text">
+
+            <p> At Pointzon, security is our top priority. We use the latest technology to protect your personal and financial information and ensure that your data is safe and secure</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="features-card">
+            <div class="features-icon">
+              <i class="bi bi-trophy-fill"></i>
+            <h3>Rewarding</h3>
+            </div>
+            <div class="features-card-text">
+
+            <p> Our loyalty program rewards our users for their continued support. The more you use our platform, the more benefits and rewards you'll receive, such as exclusive access to potential investors, discounts on services, and more.</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="features-card">
+            <div class="features-icon">
+              <i class="bi bi-headset"></i>
+            <h3>Support</h3>
+            </div>
+            <div class="features-card-text">
+
+            <p> We believe in providing our users with the best possible experience. That's why we offer 24/7 support to help you with any questions or issues you may have. <br><br><br></p>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <button type="button" class="slider-nav"></button>
+      <button type="button" class="slider-nav slider-nav-next"></button>
+
+      <div class="slider-indicators">
+          <button class="active"></button>
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+      </div>
+  </div>
+  </div>
+    </section>
+  </section>
+
+
+
+
+    <!-- <section class="aboutUs">
+      <div id="container">
+
+        <div class="product-details">
+
+        <h1>Connecting Startups to their Future</h1>
+
+
+            <p class="information">Fundraising can be a daunting task for startups. That's why we've created a platform that connects you, with potential investors to secure the funding you need to growth. Simplify your fundraising journey with Pointzon. Join us today.</p>
+
+      </div>
+
+      <div class="product-image">
+
+        <img src="images/aboutUs.jpg" alt="">
+
+
+
+      </div>
+
+      </div>
+    </section> -->
+
+
+<section class="process">
+  <div class="step-1 steps" id="pstep1" data-aos="fade-up-right" data-aos-offset="200"
+  data-aos-easing="ease-in-sine">
+    <i class="fa-solid fa-user-plus"></i>
+   <h4>
+    Sign Up
+   </h4>
+   <p>Create an account on Pointzon</p>
+  </div>
+
+  <div class="step-2 steps" id="pstep2" data-aos="fade-up" data-aos-offset="200"
+  data-aos-easing="ease-in-sine">
+    <i class="fa-solid fa-pen-to-square"></i>
+    <h4>
+      Create Profile
+     </h4>
+     <p>Showcase your business or investment goals</p>
+  </div>
+  <div class="step-3 steps" id="pstep3" data-aos="fade-up-left" data-aos-offset="200"
+  data-aos-easing="ease-in-sine">
+    <i class="fa-solid fa-people-group"></i>
+    <h4>
+      Connect
+     </h4>
+     <p>Browse profiles and connect with potential investors or startups</p>
+  </div>
+</section>
+
+
+<section class="campaignCards">
+  <span><p>Current Campaigns</p></span>
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <div class="glide__slides">
+
+          <div class="cardDemo">
+            <img
+              data-src="https://cdn.dribbble.com/users/2988193/screenshots/15485200/greenleaf_logo_mark-01_4x.jpg"
+              alt="..." class="lozad" loading="lazy">
+            <div class="cardDemoBody">
+              <!-- Span with tag class for the tag -->
+
+              <span class="tag">Eco-Friendly</span>
+
+              <span class="tag">Sustainable</span>
+     
+              <p class="name">GreenLeaf</p>
+              <p>
+              <p class="truncatePara"> An eco-friendly agriculture startup that uses sustainable farming methods to grow organic produce.</p><a href="sub-page/startup1.html">Know More</a></p>
+            </div>
+            <div class="cardDemoFooter">
+              <p>TARGET: 10,000£</p>
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 11%">11%</div>
+              </div>
+              <p>7 days Left</p>
+            </div>
+          </div>
+
+          <div class="cardDemo">
+            <img
+              data-src="https://edutechglobal.net/wp-content/uploads/2022/01/edutech_logo.png"
+              alt="..." class="lozad" loading="lazy">
+            <div class="cardDemoBody">
+              <!-- Span with tag class for the tag -->
+              <span class="tag">Tech</span>
+
+              <span class="tag">Education</span>
+              <p class="name">EduTech</p>
+              <p>
+              <p class="truncatePara">A education technology startup that creates interactive learning software for schools and universities.</p><a href="sub-page/startup2.html">Know More</a></p>
+            </div>
+            <div class="cardDemoFooter">
+              <p>TARGET: 3000£</p>
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 50%">50%</div>
+              </div>
+              <p>10 days Left</p>
+            </div>
+          </div>
+
+          <div class="cardDemo">
+            <img
+              data-src="https://thumbs.dreamstime.com/b/discussion-solution-logo-design-vector-template-consultant-company-sign-icon-information-lightbulb-tech-symbol-geometric-168953677.jpg"
+              alt="..." class="lozad" loading="lazy">
+            <div class="cardDemoBody">
+              <!-- Span with tag class for the tag -->
+              <span class="tag">Software</span>
+
+              <span class="tag">IT</span>
+              <p class="name">Solve-IT</p>
+              <p>
+              <p class="truncatePara">A software development startup that specializes in creating innovative solutions for businesses of all sizes.</p><a href="sub-page/startup3.html">Know More</a></p>
+            </div>
+            <div class="cardDemoFooter">
+              <p>TARGET: 2000£</p>
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 15%">15%</div>
+              </div>
+              <p>22 days Left</p>
+            </div>
+          </div>
+
+          <div class="cardDemo">
+            <img
+              data-src="https://www.shutterstock.com/image-vector/smart-house-logo-home-icon-260nw-1489239686.jpg"
+              alt="..." class="lozad" loading="lazy">
+            <div class="cardDemoBody">
+              <!-- Span with tag class for the tag -->
+              <span class="tag">Automation</span>
+
+              <span class="tag">IT</span>
+              <p class="name">SmartHome</p>
+              <p>
+              <p class="truncatePara">A home automation startup that develops and installs smart home technology for residential properties.</p><a href="sub-page/startup4.html">Know More</a></p>
+            </div>
+            <div class="cardDemoFooter">
+              <p>TARGET: 50,000£</p>
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 40%">40%</div>
+              </div>
+              <p>40 days Left</p>
+            </div>
+          </div>
+
+          <div class="cardDemo">
+            <img
+              data-src="https://bpando.org//wp-content/uploads/00_Cure_Life_Products_Logotype_Mucho_BPO2.jpg"
+              alt="..." class="lozad" loading="lazy">
+            <div class="cardDemoBody">
+              <!-- Span with tag class for the tag -->
+              <span class="tag">Healthcare</span>
+
+              <span class="tag">Innovation</span>
+              <p class="name">Cure-It</p>
+              <p>
+              <p class="truncatePara">A healthcare startup that creates innovative medical solutions and devices.</p><a href="sub-page/startup5.html">Know More</a></p>
+            </div>
+            <div class="cardDemoFooter">
+              <p>TARGET: 70,000£</p>
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 50%">50%</div>
+              </div>
+              <p>60 days Left</p>
+            </div>
+          </div>
+
+          <div class="cardDemo">
+            <img
+              data-src="https://seeklogo.com/images/S/Shelter-logo-73A7C4B137-seeklogo.com.png"
+              alt="..." class="lozad" loading="lazy">
+            <div class="cardDemoBody">
+              <!-- Span with tag class for the tag -->
+              <span class="tag">Real-Estate</span>
+
+              <span class="tag">Welfare</span>
+              <p class="name">Shelter </p>
+              <p>
+              <p class="truncatePara">A housing startup that aims to make affordable housing accessible for everyone.</p><a href="sub-page/startup6.html">Know More</a></p>
+            </div>
+            <div class="cardDemoFooter">
+              <p>TARGET: 35,000£</p>
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 45%">45%</div>
+              </div>
+              <p>60 days Left</p>
+            </div>
+          </div>
+
+          <div class="cardDemo">
+            <img
+              data-src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1470667673/t4vac4en6di3pj5mktbp.png"
+              alt="..." class="lozad">
+            <div class="cardDemoBody" loading="lazy">
+              <!-- Span with tag class for the tag -->
+              <span class="tag">Energy</span>
+
+              <span class="tag">Sustainable</span>
+              <p class="name">CleanWave </p>
+              <p>
+              <p class="truncatePara">A renewable energy startup that develops and installs solar and wind power systems.</p><a href="sub-page/startup7.html">Know More</a></p>
+            </div>
+            <div class="cardDemoFooter">
+              <p>TARGET: 28,000 £</p>
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 55%">55%</div>
+              </div>
+              <p>30 days Left</p>
+            </div>
+          </div>
+
+          <div class="cardDemo">
+            <img
+              data-src="https://cdn.freebiesupply.com/logos/large/2x/ecopack-logo-svg-vector.svg"
+              alt="..." class="lozad">
+            <div class="cardDemoBody" loading="lazy">
+              <!-- Span with tag class for the tag -->
+              <span class="tag">Packaging</span>
+
+              <span class="tag">Biodegradable</span>
+              <p class="name">EcoPack</p>
+              <p>
+              <p class="truncatePara">A packaging startup that creates biodegradable and compostable packaging solutions for businesses.</p><a href="sub-page/startup8.html">Know More</a></p>
+            </div>
+            <div class="cardDemoFooter">
+              <p>TARGET: 10,000£</p>
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 65%">60%</div>
+              </div>
+              <p>25 days Left</p>
+            </div>
+          </div>
+
+          <div class="cardDemo">
+            <img
+              data-src="https://img.freepik.com/free-vector/food-shopping-logo-template-design_460848-10299.jpg?w=2000"
+              alt="..." class="lozad" loading="lazy">
+            <div class="cardDemoBody">
+              <!-- Span with tag class for the tag -->
+              <span class="tag">Agriculture</span>
+
+              <span class="tag">Food Delivery</span>
+              <p class="name">Farm2Table </p>
+              <p>
+              <p class="truncatePara">A food delivery startup that connects consumers with local farmers and producers.</p><a href="sub-page/startup9.html">Know More</a></p>
+            </div>
+            <div class="cardDemoFooter">
+              <p>TARGET: 45,000 £</p>
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 70%">70%</div>
+              </div>
+              <p>15 days Left</p>
+            </div>
+          </div>
+
+          <div class="cardDemo">
+            <img
+              data-src="https://cdn.dribbble.com/users/5516895/screenshots/12084725/new_project__1__4x.jpg"
+              alt="..." class="lozad" loading="lazy">
+            <div class="cardDemoBody">
+              <!-- Span with tag class for the tag -->
+              <span class="tag">Transportation</span>
+              <span class="tag">Sustainable</span>
+              <p class="name">Eco-Ride</p>
+              <p>
+              <p class="truncatePara">A food delivery startup that connects consumers with local farmers and producers.</p><a href="sub-page/startup10.html">Know More</a></p>
+            </div>
+            <div class="cardDemoFooter">
+              <p>TARGET: 20,000 £</p>
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25"
+                aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 85%">85%</div>
+              </div>
+              <p>10 days Left</p>
+            </div>
+          </div>      
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
+  </section>
+
+
+<section class="callToAction" data-aos="flip-right">
+  <div class="growthImg"><img class="lozad" data-src="images/growth3.svg" alt=""></div>
+
+  <div class="ctaText">
+    <h3>Are you ready to take your Business to the next Level?</h3>
+    <p> Secure the funding you need to grow your business. Sign up today and unlock the potential of your startup. Join us now and let's fuel your growth together.</p>
+   <a class="learn-more" href="sub-page/signup.html">
+  <span class="circle" aria-hidden="true">
+  <span class="icon arrow"></span>
+  </span>
+  <span class="button-text">Let's Do it</span>
+</a>
+  </div>
+
+</section>
+
+<div class="charityContainer">
+  <section class="aboutCharity lozad" data-background-image="images/charity.webp">
+    <div class="charityContent">
+      <h2>Be a Part of Something Bigger</h2>
+      <p>Join Pointzon's Charity Efforts. At Pointzon, we believe in giving back. That's why we have a dedicated charity section on our platform where you can find and donate for causes that align with your values and interests. Sign up today and make a difference in the world.</p>
+      <a href="Charity/index.html" class="charityBtn"> Know More... </a>
+    </div>
+    <div class="charityImg">
+
+      <!-- <img src="https://images.pexels.com/photos/11588123/pexels-photo-11588123.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt=""> -->
+
+
+  </div>
+    </section>
+</div>
+
+<section class="news-section">
+<div class="news-container">
+<div class="glide2">
+  <div class="glide__track" data-glide-el="track">
+    <div class="glide__slides">
+      <div class="news-card">
+        <div class="news-card-image"><img data-src="https://ichef.bbci.co.uk/news/976/cpsprodpb/B4A4/production/_128444264_4572d6a905efb6fe16ed2bfb752a6c2d8063a1d0.jpg.webp" class="lozad" alt=""></div>
+        <div class="card-text">
+          <span class="date">28 Jan 2023</span>
+          <h2>Flybe: Regional carrier ceases trading and cancels all flights</h2>
+          <p class="truncatePara">Airline Flybe has cancelled all flights to and from the UK after going into administration.
+
+            A statement on the airline's website said it had "ceased trading" and told any passengers expecting to travel with it not to go to the airport.
+            
+            About 2,500 passengers were due to fly with Flybe on Saturday, with about 75,000 passengers in total having flights cancelled.
+            
+            Flybe's administrator confirmed 277 of its 321 staff are being made redundant.</p>
+
+        </div>
+        <div class="card-stats">
+          <div class="stat">
+            <div class="value">
+              <button type="button" class="btn share-button">
+              <i class="bi bi-share-fill"></i>
+            </button>
+          </div>
+            <div class="type">Share</div>
+
+          </div>
+          <div class="stat stat-border">
+            <div class="value">4 min</div>
+            <div class="type">read</div>
+          </div>
+          <div class="stat">
+            <a href="sub-page/n1.html">
+            <div class="value"><i class="bi bi-chevron-double-right"></i></div>
+            <div class="type">Read More</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="news-card">
+      <div class="news-card-image"><img data-src="https://i.guim.co.uk/img/media/7f183ece4548aaeb8ea4c490fa56ea300401317b/0_0_5000_3000/master/5000.jpg?width=940&quality=45&dpr=2&s=none" class="lozad" alt=""></div>
+        <div class="card-text card2">
+          <span class="date">27 Jan 2023</span>
+          <h2>China owns vast network of UK real estate, offshore records reveal
+          </h2>
+          <p class="truncatePara">The Chinese government owns a vast network of UK real estate via offshore secrecy jurisdictions such as Luxembourg and the Isle of Man, the Guardian can reveal, raising questions about Beijing's grip on links in the UK supply chain.
+          </p>
+        </div>
+        <div class="card-stats">
+          <div class="stat">
+            <div class="value">
+              <button type="button" class="btn share-button">
+              <i class="bi bi-share-fill"></i>
+            </button>
+          </div>
+            <div class="type">Share</div>
+          </div>
+          <div class="stat stat-border">
+            <div class="value">7 min</div>
+            <div class="type">read</div>
+          </div>
+          <div class="stat">
+            <a href="sub-page/n2.html">
+              <div class="value"><i class="bi bi-chevron-double-right"></i></div>
+              <div class="type">Read More</div>
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="news-card">
+        <div class="news-card-image"><img data-src="https://i.guim.co.uk/img/media/ffebfceebbd354890bb8c4b12bb87a8668ef0b00/0_0_6588_3953/master/6588.jpg?width=620&quality=45&dpr=2&s=none" class="lozad" alt=""></div>
+          <div class="card-text card3">
+            <span class="date">28 Jan 2023</span>
+            <h2>Boy arrested after girl, 15, stabbed to death in Northumberland</h2>
+            <p class="truncatePara">A teenager has been arrested on suspicion of murder after a 15-year-old girl was fatally stabbed in the Priestpopple area of Hexham, Northumbria police said.
+
+              The force said the ambulance service alerted officers shortly after 5.10pm on Friday to a report of a teenage boy and girl who had been injured in a suspected assault.</p>
+          </div>
+          <div class="card-stats">
+            <div class="stat">
+              <a href="#">
+                <div class="value">
+                  <button type="button" class="btn share-button">
+                  <i class="bi bi-share-fill"></i>
+                </button>
+              </div>
+              <div class="type">Share</div>
+            </a>
+            </div>
+            <div class="stat stat-border">
+              <div class="value">2 min</div>
+              <div class="type">read</div>
+            </div>
+            <div class="stat">
+
+              
+            <a href="sub-page/n3.html">
+              <div class="value"><i class="bi bi-chevron-double-right"></i></div>
+              <div class="type">Read More</div>
+            </a>
+
+            </div>
+          </div>
+      </div>
+      <div class="news-card">
+          <div class="news-card-image"><img data-src="https://ichef.bbci.co.uk/news/976/cpsprodpb/132C2/production/_128003587_a676ee313a50da7c216bfa1b07f822faf2cc19b9.jpg.webp" class="lozad" alt=""></div>
+          <div class="card-text">
+            <span class="date">28 Jan 2023</span>
+            <h2>Dominic Raab: More civil servants planned to lodge complaints</h2>
+            <p class="truncatePara">More civil servants intended to lodge complaints against Dominic Raab over his behaviour but allegedly pulled out for fear of being identified.
+
+              Senior lawyer Adam Tolley KC is investigating a number of complaints about the deputy PM's behaviour.
+              
+              But the BBC understands a number of civil servants who had intended to lodge formal complaints did not.</p>
+
+          </div>
+          <div class="card-stats">
+            <div class="stat">
+              <div class="value">
+                <button type="button" class="btn share-button">
+                <i class="bi bi-share-fill"></i>
+              </button>
+            </div>
+              <div class="type">Share</div>
+
+            </div>
+            <div class="stat stat-border">
+              <div class="value">4 min</div>
+              <div class="type">read</div>
+            </div>
+            <div class="stat">
+              <a href="sub-page/n4.html">
+              <div class="value"><i class="bi bi-chevron-double-right"></i></div>
+              <div class="type">Read More</div>
+              </a>
+            </div>
+          </div>
+      </div>
+      <div class="news-card">
+        <div class="news-card-image"><img data-src="https://ichef.bbci.co.uk/news/976/cpsprodpb/0D24/production/_128446330_mediaitem128446328.jpg.webp" class="lozad" alt=""></div>
+          <div class="card-text card2">
+            <span class="date">28 Jan 2023</span>
+            <h2>Wales FM Mark Drakeford's wife dies suddenly
+            </h2>
+            <p class="truncatePara">A spokesman confirmed the news with "deep sadness".
+
+              He added: "The thoughts of everyone in the Welsh government are with the family at this time and we ask that their privacy is respected."
+              
+              Downing Street said Prime Minister Rishi Sunak had passed on his "deepest condolences" to Mr Drakeford privately.
+              
+              Labour leader Sir Keir Starmer said he was "shocked and saddened" by the news.
+            </p>
+          </div>
+          <div class="card-stats">
+            <div class="stat">
+              <div class="value">
+                <button type="button" class="btn share-button">
+                <i class="bi bi-share-fill"></i>
+              </button>
+            </div>
+              <div class="type">Share</div>
+            </div>
+            <div class="stat stat-border">
+              <div class="value">7 min</div>
+              <div class="type">read</div>
+            </div>
+            <div class="stat">
+              <a href="sub-page/n5.html">
+                <div class="value"><i class="bi bi-chevron-double-right"></i></div>
+                <div class="type">Read More</div>
+                </a>
+            </div>
+          </div>
+      </div>
+      <div class="news-card">
+          <div class="news-card-image"><img data-src="https://prostatecanceruk.org/media/ygij1ux5/billanddaughter.jpg?crop=0,0.0849180203195181,0,0.57255716635909593&cropmode=percentage&width=2880&height=1108&rnd=133192934613370000&format=webp&quality=80" class="lozad" alt=""></div>
+            <div class="card-text card3">
+              <span class="date">25 Jan 2023</span>
+              <h2>Bill Turnbull's daughter running London Marathon in his memory</h2>
+              <p class="truncatePara">Bill Turnbull's warmth as a breakfast show host woke us up each morning. His diagnosis woke up Britain to prostate cancer. And his death sparked an outpouring of love and the biggest ever spike of people checking their risk in a single day.</p>
+            </div>
+            <div class="card-stats">
+              <div class="stat">
+                <a href="#">
+                  <div class="value">
+                    <button type="button" class="btn share-button">
+                    <i class="bi bi-share-fill"></i>
+                  </button>
+                </div>
+                <div class="type">Share</div>
+              </a>
+              </div>
+              <div class="stat stat-border">
+                <div class="value">2 min</div>
+                <div class="type">read</div>
+              </div>
+              <div class="stat">
+                <a href="#">
+                  <a href="sub-page/n6.html">
+                    <div class="value"><i class="bi bi-chevron-double-right"></i></div>
+                    <div class="type">Read More</div>
+                    </a>
+              </a>
+              </div>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+<a href="sub-page/index.html" class="aboutBtn"><span>More News</span></a>
+</div>
+</section>
+
+
+
+<div class="news-container-fallbackSharing">
+  <div class="share-dialog">
+    <header>
+      <h3 class="dialog-title">Share this Website</h3>
+      <button class="close-button"><svg><use href="#close"></use></svg></button>
+    </header>
+    <div class="targets">
+      <a class="button">
+        <svg>
+          <use href="#facebook"></use>
+        </svg>
+        <span>Facebook</span>
+      </a>
+
+      <a class="button">
+        <svg>
+          <use href="#twitter"></use>
+        </svg>
+        <span>Twitter</span>
+      </a>
+
+      <a class="button">
+        <svg>
+          <use href="#linkedin"></use>
+        </svg>
+        <span>LinkedIn</span>
+      </a>
+
+      <a class="button">
+        <svg>
+          <use href="#email"></use>
+        </svg>
+        <span>Email</span>
+      </a>
+    </div>
+    <div class="link">
+      <div class="pen-url">https://codepen.io/ayoisaiah/pen/YbNazJ</div>
+      <button class="copy-link">Copy Link</button>
+    </div>
+  </div>
+
+  <!-- <button class="share-button" type="button" title="Share this article">
+    <svg>
+      <use href="#share-icon"></use>
+    </svg>
+  </button> -->
+
+  <svg class="hidden">
+    <defs>
+      <symbol id="share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share"><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path><polyline points="16 6 12 2 8 6"></polyline><line x1="12" y1="2" x2="12" y2="15"></line></symbol>
+
+      <symbol id="facebook" viewBox="0 0 24 24" fill="#3b5998" stroke="#3b5998" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></symbol>
+
+      <symbol id="twitter" viewBox="0 0 24 24" fill="#1da1f2" stroke="#1da1f2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></symbol>
+
+      <symbol id="email" viewBox="0 0 24 24" fill="#777" stroke="#fafafa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></symbol>
+
+      <symbol id="linkedin" viewBox="0 0 24 24" fill="#0077B5" stroke="#0077B5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></symbol>
+
+      <symbol id="close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-square"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="9" x2="15" y2="15"></line><line x1="15" y1="9" x2="9" y2="15"></line></symbol>
+    </defs>
+  </svg>
+</div>
+
+
+
+  <div class="testimonials">
+  <h2>What Our users say</h2>
+
+    <div class="swiffy-slider slider-indicators-highlight slider-nav-dark slider-nav-touch  slider-nav-autoplay slider-nav-autopause slider-indicators-sm slider-nav-animation slider-nav-animation-appear" data-slider-nav-autoplay-interval="4000" style="--swiffy-slider-nav-dark:#000;">
+      <ul class="slider-container">
+        <li>
+        <div class="reviews">
+          <h3>James Wilson</h3>
+          <p>Pointzon made it easy for our startup to connect with potential investors and secure funding.</p>
+        </div>
+        </li>
+        <li>
+          <div class="reviews">
+            <h3>Isabella Davis</h3>
+            <p>As a venture capitalist, I was impressed by the quality of startups featured on the platform, and have already seen great returns.</p>
+          </div>
+        </li>
+        <li>
+            <div class="reviews">
+              <h3>George Green</h3>
+              <p>The platform made fundraising a breeze for our company, and the team was extremely helpful.</p>
+            </div>
+        </li>
+        <li>
+              <div class="reviews">
+                <h3>Sophia White</h3>
+                <p>I found the platform to be a great resource for discovering new investment opportunities and aligning with my goals</p>
+              </div>
+        </li>
+        <li>
+          <div class="reviews">
+            <h3>Emma Smith</h3>
+            <p>The team at Pointzon provided valuable advice and guidance throughout the fundraising process and helped us reach the right investors.</p>
+          </div>
+        </li>
+        <li>
+          <div class="reviews">
+            <h3>Oliver Brown</h3>
+            <p>The platform was easy to navigate and the process of connecting with investors was seamless</p>
+          </div>
+        </li>
+        <li>
+          <div class="reviews">
+            <h3>Amelia Jones</h3>
+            <p>Thanks to Pointzon, we were able to secure the funding needed to bring our innovative product to market.</p>
+          </div>
+        </li>
+        <li>
+          <div class="reviews">
+            <h3>William Taylor</h3>
+            <p>I found the platform to be a great way to connect with like-minded investors and grow my portfolio.</p>
+          </div>
+        </li>
+      </ul>
+
+      <button type="button" class="slider-nav"></button>
+      <button type="button" class="slider-nav slider-nav-next"></button>
+
+      <ul class="slider-indicators">
+          <li class="active"></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+
+<div class="cardFaq">
+  <article>
+    <h1 data-accordion-element-trigger>What is Pointzon?</h1>
+    <div data-accordion-element-content class="content">
+      <p> Pointzon is a fundraising platform for startups and venture capitalists. It connects innovative startups with potential investors to help them secure the funding they need to grow their business.</p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger>How does Pointzon work?</h1>
+    <div data-accordion-element-content class="content">
+      <p>Pointzon is a user-friendly platform that streamlines the fundraising process. Startups can create a profile, upload their business plan, and connect with potential investors in just a few easy steps. Investors can also create a profile and find startups that align with their investment goals. </p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger>Who can use Pointzon?</h1>
+    <div data-accordion-element-content class="content">
+      <p> Pointzon is available for use by startups and venture capitalists looking for funding or investment opportunities.</p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger> Is there a fee to use Pointzon?</h1>
+    <div data-accordion-element-content class="content">
+      <p>Pointzon charges a small commission on funds raised through the platform.</p>
+    </div>
+  </article>
+  <article>
+    <h1 data-accordion-element-trigger> Is my information on Pointzon secure?</h1>
+    <div data-accordion-element-content class="content">
+      <p>Pointzon takes the security of its users' information very seriously and uses the latest technology to keep data safe and secure.</p>
+    </div>
+  </article>
+</div>
+
+
+<section class="mapSection">
+  <section class="animatedWrapper">
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    <div id='map'>
+      <iframe data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.3294133260683!2d-0.31564798502116853!3d51.48882221988346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760dadda576833%3A0x90ed23e20c81ac7e!2sThe%20GoRings%20Accountants!5e0!3m2!1sen!2sin!4v1674918956077!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" class="lozad"></iframe>
+    </div>
+  </section>
+</section>
+
+    <!-- <section class="pricingSection">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card text-center">
+                  <div class="title">
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    <i class="bi bi-bicycle"></i>
+                    <h2>Basic</h2>
+                  </div>
+                  <div class="price">
+                    <h4><sup>£</sup>25</h4>
+                  </div>
+                  <div class="option">
+                    <ul>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> 10 GB Space </li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> 3 Domain Names </li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> 20 Email Address </li>
+                    <li> <i class="fa fa-times" aria-hidden="true"></i> Live Support </li>
+                    </ul>
+                  </div>
+                  <a href="#">Order Now </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="card text-center">
+                  <div class="title">
+                    <i class="fa fa-plane" aria-hidden="true"></i>
+                    <i class="bi bi-airplane-fill"></i>
+                    <h2>Standard</h2>
+                  </div>
+                  <div class="price">
+                    <h4><sup>£ </sup>50</h4>
+                  </div>
+                  <div class="option">
+                    <ul>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> 50 GB Space </li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> 5 Domain Names </li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Unlimited Email Address </li>
+                    <li> <i class="fa fa-times" aria-hidden="true"></i> Live Support </li>
+                    </ul>
+                  </div>
+                  <a href="#">Order Now </a>
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="card text-center">
+                  <div class="title">
+                    <i class="fa fa-rocket" aria-hidden="true"></i>
+                    <i class="bi bi-rocket-takeoff-fill"></i>
+                    <h2>Premium</h2>
+                  </div>
+                  <div class="price">
+                    <h4><sup>£</sup>100</h4>
+                  </div>
+                  <div class="option">
+                    <ul>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Unlimited GB Space </li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> 30 Domain Names </li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Unlimited Email Address </li>
+                    <li> <i class="fa fa-check" aria-hidden="true"></i> Live Support </li>
+                    </ul>
+                  </div>
+                  <a href="#">Order Now </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+
+      <div class="welcome-section content-hidden">
+        <div class="content-wrap">
+            <ul class="fly-in-text">
+                <li>WELCOME</li>
+            </ul>
+
+            <a href="#" class="enter-button">Enter</a>
+        </div>
+    </div>
+
+
+
+
+
+
+  <footer class="footer-10">
+    <div class="footerContainer">
+      <div class="row mb-5 pb-3">
+        <div class="col-md-4 mb-md-0 mb-4 d-flex">
+          <div class="con con-1 w-100 py-5">
+            <div class="con-info w-100 text-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <a href="tel:+441234567890">   <span><i class="fa-solid fa-phone-volume"></i></span></a>
+              </div>
+              <div class="text">
+                <a href="tel:+441234567890"> <span>(+00) 1234 5678</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-md-0 mb-4 d-flex">
+          <div class="con con-2 w-100 py-5">
+            <div class="con-info w-100 text-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+               <a href="mailto:info@pointzon.com"> <span><i class="fa-regular fa-envelope"></i></span></a>
+              </div>
+              <div class="text">
+              <a href="mailto:info@pointzon.com">  <span>info@pointzon.com</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-md-0 mb-4 d-flex">
+          <div class="con con-3 w-100 py-5">
+            <div class="con-info w-100 text-center">
+              <div class="icon d-flex align-items-center justify-content-center">
+               <a href="https://goo.gl/maps/LS33z5bv9g7ditnM8"> <span><i class="fa-solid fa-location-dot"></i></span></a>
+              </div>
+              <div class="text">
+                <a href="https://goo.gl/maps/LS33z5bv9g7ditnM8"> <span>the mille, 1000 Great West Rd, London TW8 9DW, United Kingdom</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <div class="row">
+            <div class="col-md-4 mb-md-0 mb-4">
+              <h2 class="footer-heading">Resources</h2>
+              <ul class="list-unstyled">
+                <li><a href="sub-page/index.html" class="d-block">News</a></li>
+                <li><a href="sub-page/policy.html" class="d-block">Privacy Policy</a></li>
+                <li><a href="sub-page/contact.html" class="d-block">Contact Form</a></li>
+                <li><!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+
+                  <!-- <a href="#" class="d-block" id="open_preferences_center">Cookies Preferences</a></li> -->
+              </ul>
+            </div>
+            <div class="col-md-4 mb-md-0 mb-4">
+              <h2 class="footer-heading">About</h2>
+              <ul class="list-unstyled">
+                <li><a href="sub-page/about.html" class="d-block">Our story</a></li>
+                <li><a href="sub-page/vision.html" class="d-block">Mission & Vision</a></li>
+     
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-5 mb-md-0 mb-4">
+          <h2 class="footer-heading">Subscribe</h2>
+          <form action="#" class="subscribe-form">
+            <div class="form-group d-flex">
+              <input type="text" class="form-control rounded-left" placeholder="Enter email address">
+              <button type="submit" class="form-control submit rounded-right">Subscribe</button>
+            </div>
+            <span class="subheading">Get digital marketing updates in your mailbox</span>
+          </form>
+        </div>
+      </div>
+      <div class="row mt-5 pt-4 border-top">
+        <div class="col-md-6 col-lg-8 mb-md-0 mb-4">
+          <p class="copyright mb-0">
+            Copyright &copy; 2023 All rights reserved by Pointzon</a>
+          </p>
+        </div>
+        <div class="col-md-6 col-lg-4 text-md-right">
+          <ul class="ftco-footer-social p-0">
+            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span><i
+                    class="fa-brands fa-facebook"></i></span></a></li>
+            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span><i
+                    class="fa-brands fa-instagram"></i></span></a></li>
+            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span><i
+                    class="fa-brands fa-youtube"></i></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/nav.js"></script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/glide.min.js"
+    integrity="sha512-IkLiryZhI6G4pnA3bBZzYCT9Ewk87U4DGEOz+TnRD3MrKqaUitt+ssHgn2X/sxoM7FxCP/ROUp6wcxjH/GcI5Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.esm.min.js"
+    integrity="sha512-UWMhYs4S2yYDXHEXysQmn0naWye4oCeslOUbeHsVaBtWVlrSZUNTx4Q4Kk259frPZXJiC0uw9r113rAj47zkfQ=="
+    type="module" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<!--js for welcome screen -->
+
+<script type="text/javascript">
+
+  $(function() {
+
+          var welcomeSection = $('.welcome-section'),
+          enterButton = welcomeSection.find('.enter-button');
+
+      //  setTimeout(function() {
+      //      welcomeSection.removeClass('content-hidden');
+      //  }, 500);
+
+      //  enterButton.on('click', function(e) {
+      //      e.preventDefault();
+      //     welcomeSection.addClass('content-hidden').fadeOut();
+        
+      //  });
+
+      $(window).on('load', function () {
+            if (sessionStorage.getItem('welcomeScreen') !== 'true') {
+      setTimeout(function() {
+          welcomeSection.removeClass('content-hidden');
+      }, 500);
+
+      enterButton.on('click', function(e) {
+          e.preventDefault();
+          welcomeSection.addClass('content-hidden').fadeOut();
+          sessionStorage.setItem('welcomeScreen', true);
+      });
+            }
+            else{
+              welcomeSection.css("display","none");
+            }
+        });
+
+  });
+
+
+
+            $(window).on('load', function () {
+                if (sessionStorage.getItem('TermsNcondition') !== 'true') {
+                    $('#staticBackdrop').modal('show');
+                    sessionStorage.setItem('TermsNcondition', true);
+                }
+            });
+
+</script>
+<!-- js to make the aos animations responsive -->
+
+<script>
+
+  $(document).ready(function(){
+    if($(window).width() <= 426) {
+      $("#aboutRight").attr({
+        'data-aos': 'zoom-in'
+      });
+      $("#fCarousel").attr({
+        'data-aos': 'zoom-in-right'
+      });
+      $("#pstep1").attr({
+        'data-aos': 'fade-down-right'
+      });
+      $("#pstep2").attr({
+        'data-aos': 'fade-right'
+      });
+      $("#pstep3").attr({
+        'data-aos': 'fade-up-right'
+      });
+    } else {
+      $("#aboutRight").attr({
+        'data-aos': 'fade-left'
+      });
+      $("#fCarousel").attr({
+        'data-aos': 'fade-left'
+      });
+      $("#pstep1").attr({
+        'data-aos': 'fade-up-right'
+      });
+      $("#pstep2").attr({
+        'data-aos': 'fade-up'
+      });
+      $("#pstep3").attr({
+        'data-aos': 'fade-up-left'
+      });
+
+    }
+  });
+  </script>
+
+
+
+<!-- js to implement native share button with web share api -->
+<script>
+  const shareButtons = document.querySelectorAll('.share-button');
+const shareDialog = document.querySelector('.share-dialog');
+const closeButton = document.querySelector('.close-button');
+var title = window.document.title;
+var url = window.document.location.href;
+shareButtons.forEach((shareButton)=>{shareButton.addEventListener('click', event => {
+  if (navigator.share) {
+   navigator.share({
+      title: title,
+      url: url,
+    }).then(() => {
+      console.log('Thanks for sharing!');
+    })
+    .catch(console.error);
+    } else {
+        shareDialog.classList.add('is-open');
+    }
+});
+
+  closeButton.addEventListener('click', event => {
+  shareDialog.classList.remove('is-open');
+});
+});
+
+</script>
+
+
+    <!-- intersection observer js for changing navbar styling once crossed the section -->
+    <script>
+
+      const navbar = document.querySelector(".navbarMain");
+      const heroSection = document.querySelector(".hero");
+
+      if (screen.width > 767) {
+        var heroSectionOptions = {
+          rootMargin: "-100px 0px 0px 0px",
+        };
+      }
+
+      else {
+        var heroSectionOptions = {
+          rootMargin: "-50px 0px 0px 0px",
+        };
+      }
+      const heroSectionObserver =
+        new IntersectionObserver(function (entries, navbar) {
+          entries.forEach(entry => {
+            if (!entry.isIntersecting) {
+              console.log("The navbar is styled and scrolled");
+              console.log(entry.target);
+              $(".navbarMain").css("background-color", "#0E0816");
+              $(".navbarMain").css("box-shadow", "0 0 25px 3px rgba(99,109,255,0.6");
+              $('.navbarMain').css("transition", "0.3s ease-in-out");
+
+
+            }
+            else {
+              console.log("The navbar is back on heroSection");
+              $(".navbarMain").css("background-color", "transparent");
+              $(".navbarMain").css("box-shadow", "none");
+              $('.navbarMain').css("transition", "0.3s ease-in-out");
+
+            }
+
+          })
+        }, heroSectionOptions);
+
+      heroSectionObserver.observe(heroSection);
+
+    </script>
+
+
+
+
+  <!-- js for cards slider -->
+  <script>
+
+
+
+var glide2 = new Glide('.glide2', {
+      type: 'slider',
+      keyboard: true,
+      swipeThreshold: 20,
+      dragThreshold: 50,
+      gap: 20,
+      perView: 4,
+      //autoplay: 2000,
+      breakpoints: {
+        768: {
+          perView: 3,
+        },
+
+        426: {
+          peek: {
+            before: 0,
+            after: 70
+          },
+          perView: 1,
+
+
+        },
+        376: {
+          peek: {
+            before: 0,
+            after: 50
+          },
+          perView: 1,
+        }
+      }
+    });
+
+
+    var glide = new Glide('.glide', {
+      type: 'slider',
+      keyboard: true,
+      swipeThreshold: 20,
+      dragThreshold: 50,
+      gap: 20,
+      //autoplay: 2000,
+      perView: 4,
+      breakpoints: {
+        768: {
+          perView: 4,
+        },
+
+        426: {
+          perView: 2,
+
+        },
+        376: {
+          peek: {
+            before: 40,
+            after: 60
+          },
+          perView: 1,
+        }
+      }
+    });
+
+    glide2.mount();
+    glide.mount();
+
+
+
+
+</script>
+
+  <!-- js for lazy loading images -->
+
+  <script>
+
+    const observer = lozad('.lozad', {
+      rootMargin: '10px 0px', // syntax similar to that of CSS Margin
+      threshold: 0.1, // ratio of element convergence
+      enableAutoReload: true // it will reload the new image when validating attributes changes
+    });
+    observer.observe();
+  </script>
+
+
+
+
+
+
+
+  <!-- js for faq section -->
+
+  <script>
+    var myAccordion = new gianniAccordion({
+      elements: ".cardFaq article",
+      trigger: "[data-accordion-element-trigger]",
+      content: "[data-accordion-element-content]"
+    });
+
+
+    myAccordion.on("elementSelected", data => {
+      console.log("elementOpened", data);
+    });
+  </script>
+
+  <!-- js for scroll reveal -->
+
+  <script>
+    const sr = ScrollReveal({
+  origin: "top",
+  distance: "30px",
+  duration: 2000,
+});
+    ScrollReveal().reveal('.glide', {delay: 300});
+    ScrollReveal().reveal('.glide2', {delay: 700});
+    ScrollReveal().reveal('.navbarMain', { delay: 800 });
+    ScrollReveal().reveal('.sub-text', { delay: 300 });
+    ScrollReveal().reveal('.cta-links', { delay: 800 });
+    ScrollReveal().reveal('.cardFaq', { delay: 200 });
+    ScrollReveal().reveal('.process', { delay: 200 });
+    ScrollReveal().reveal('.charityContainer', { delay: 200 });
+    ScrollReveal().reveal('.animatedWrapper', { delay: 200 });
+    ScrollReveal().reveal('.testimonials', { delay: 200 });
+
+</script>
+
+
+
+
+<script src="https://cdn.websitepolicies.io/lib/cookieconsent/cookieconsent.min.js" defer></script>
+<script>
+window.addEventListener("load",function()
+{window.wpcc.init({"corners":"large","colors":{"popup":{"background":"#1c1f4b","text":"#ffffff","border":"#afb3e4"},"button":{"background":"#afb3e4","text":"#000000"}},"position":"bottom-right","z-index":"4","transparency":"10","content":{"href":"sub-page/policy.html"}})});
+</script>
+
+
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+
+</html>
